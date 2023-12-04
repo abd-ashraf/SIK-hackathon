@@ -23,12 +23,12 @@ def extract_text(image_path):
     return relevant_data
 
 # Path to your image
-image_path = '004-iPhone13Pro-001.jpg'
+image_path = '010-droneDJIM3-002.jpg'
 
 # Extract text
 extracted_data = extract_text(image_path)
 
 # Save to CSV
-extracted_data.to_csv('extracted_text.csv', index=False)
+extracted_data.to_csv('extracted_text_010-droneDJIM3-002.csv', index=False)
 
 print("Text extraction complete. Data saved to 'extracted_text.csv'.")
